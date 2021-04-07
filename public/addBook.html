@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="html" href="index.html">
+    <link rel="stylesheet" href="addbook.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav> 
+        <h1>BOOK MANAGEMENT STORE</h1>  
+        <button id='btn1' onclick="window.open('index.html','_self')">BOOK LIST</a></button>
+
+    </nav><br>
+<div class='form-wrap'>
+    
+    <form id="add-details" action="index.html" method="GET">
+        <h3>ADD BOOK DETAILS</h3>
+        <hr>
+        <label for='id'>BOOK ID:    </label><br>
+        <input type="text" id="id" placeholder="AC123"><br>
+        <label for='title'>BOOK TITLE:    </label><br>
+        <input type="text" id="title" placeholder="Alchemist"><br>
+
+        <label for='author'>BOOK AUTHOR:  </label><br>
+        <input type="text" id="author" placeholder="eg:Paulo Coelho"><br>
+
+        <label for='rating'>RATING:       </label><br>
+        <input type="text" id="rating"><br>
+
+        <label for='rating'>PRICE:       </label><br>
+        <input type="text" id="price"><br>
+        <label for='rating'>URL:       </label><br>
+        <input type="text" id="url"><br>
+
+        <!-- <label for='url'>URL FOR DETAILS: </label><br>
+        <input type="text" id="Display" placeholder="https://www.google.com"><br><br> -->
+
+        <input type="submit" id="addbutton" value="Add" > 
+    </form>
+</div>
+        <script type="module" src="./main.js"></script>
+</body>
+</html>

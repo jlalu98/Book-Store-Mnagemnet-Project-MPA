@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>BOOK STORE </title>
+</head>
+<body>
+    <nav> 
+        <h1>BOOK MANAGEMENT STORE</h1>  
+        <button id='btn1' onclick="window.open('index.html','_self')">BOOK LIST</a></button>
+        <button id='btn2' onclick="window.open('addBook.html','_self')">ADD BOOKS</a></button>
+   
+    </nav>
+    <hr><br>
+    <div class="sea">
+    <form id='search-area'>
+        <label for='search-bar'><b>Search</b></label>
+        <select id='selection'>
+            <option id='one'>Id</option>
+            <option id=two>Title</option>
+            <option id='three'>Author</option>
+            <option id='four'>Price </option>
+            <option id="five">Rating</option>
+        </select>
+        <input type='text' id='search-bar' placeholder="Search Option">
+        <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+    </div>
+    <br>
+    <br>
+    <div class="book-List">
+        <table id="bookTable">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Rating</th>
+                    <th>Price</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="table"></tbody>
+
+        </table>
+    </div>
+  <script type="module" src='./main.js'>
+  </script>  
+</body>
+</html>

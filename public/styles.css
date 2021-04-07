@@ -1,0 +1,103 @@
+
+select { 
+  width:200px; }
+  
+#btn1{
+    border-radius: 25px;
+    background-color: white ;
+    padding: 10px;
+    
+  }
+#btn2{
+  border-radius: 25px;
+  background-color: white;
+  padding: 10px;
+  }
+#a{
+  color: aliceblue;
+  }
+h1 {
+  text-align: center;
+  color:white;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+hr {
+  color: rgb(26, 29, 31);
+ 
+}
+
+body {
+  background: #ca7070;
+  height: 100%;
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  background-size:cover;
+}
+
+.booklist {
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+.sea{
+   color: white;
+   position: absolute;
+  right: 0;
+ 
+}
+
+.material-icons {
+  background-color: white;
+  size: 5px;
+}
+
+#booktable {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border-style: double;
+  width: 100%;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#table tr {
+  background-color: #f2f2f2;
+}
+
+#table tr:hover {
+  background-color: #ddd;;
+}
+
+thead {
+  padding-top: 30px;
+  padding-bottom: 12px;
+  background-color: #834747;
+  color: white;
+  
+}
+.material-icons {
+  background-color: #ddd;;
+  size: 5px;
+}
+
+#booktable td, #customers th {
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+
+nav, a {
+  text-align: right;
+  
+}
+
+nav {
+  border-radius: 20px;
+  background-color: #834747;
+}
+#bookTable{
+  margin-left: auto;
+  margin-right: auto;
+
+}
